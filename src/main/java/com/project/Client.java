@@ -32,6 +32,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
             // fetch all customers
             System.out.println("Employee found with findAll():");
             System.out.println("-------------------------------");
+            System.out.println("Welcome to GIT");
+
+
             for (Employee employee : repository.findAll()) {
 
                 System.out.println(employee);
